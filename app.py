@@ -11,6 +11,7 @@ import random
 # --------------------------
 st.set_page_config(page_title="Credit Card Default Dashboard", layout="wide")
 st.title("💳 Credit Card Default Prediction & Dashboard")
+st.subheader("By Swayam Sodha")
 
 # --------------------------
 # Load Dataset
@@ -195,4 +196,4 @@ with tab3:
                 random_example[key] = random.randint(0, 1000000)
             elif key.startswith('PAY_AMT'):
                 random_example[key] = random.randint(0, 500000)
-        st.experimental_rerun()
+        st.rerun()
