@@ -1,0 +1,21 @@
+# Ignore system and IDE files
+__pycache__/
+*.pyc
+*.pyo
+.env/
+.vscode/
+.idea/
+*.log
+*.zip
+*.pdf
+*.docx
+*.mp4
+.ipynb_checkpoints/
+
+# Keep only key project files
+!*.py
+!*.ipynb
+!*.csv
+!requirements.txt
+!app.py
+!.gitignore
